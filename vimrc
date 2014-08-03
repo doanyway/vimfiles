@@ -7,6 +7,7 @@ au FileType python setlocal tabstop=4 expandtab shiftwidth=4 softtabstop=4
 let mapleader = ","
 
 nnoremap <leader>d :NERDTreeToggle<cr>
+nnoremap <leader>c :NERDComToggleComment<cr>
 
 
 set background=dark

@@ -31,4 +31,4 @@ let g:solarized_visibility="high"
 set ruler
 set printoptions=duplex:off,paper:letter,syntax:off
 
-"yo
+"yo yo

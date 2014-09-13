@@ -4,8 +4,8 @@ syntax on
 filetype indent plugin on
 
 au FileType python setlocal tabstop=4 expandtab shiftwidth=4 softtabstop=4
-au FileType ruby setlocal tabstop=4 expandtab shiftwidth=4 softtabstop=4
-au FileType cucumber setlocal tabstop=4 expandtab shiftwidth=4 softtabstop=4
+au FileType ruby setlocal tabstop=2 expandtab shiftwidth=2 softtabstop=2
+au FileType cucumber setlocal tabstop=2 expandtab shiftwidth=2 softtabstop=2
 
 let mapleader = ","
 

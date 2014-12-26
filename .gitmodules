@@ -17,3 +17,6 @@
 	path = bundle/vim-niji
 	url = https://github.com/amdt/vim-niji.git
 	ignore = dirty
+[submodule "bundle/slimv"]
+	path = bundle/slimv
+	url = https://github.com/kovisoft/slimv.git

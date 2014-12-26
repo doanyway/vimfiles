@@ -30,6 +30,7 @@ let g:solarized_visibility="high"
 
 let g:slime_target = "tmux"
 
+
 set ruler
 set printoptions=duplex:off,paper:letter,syntax:off
 

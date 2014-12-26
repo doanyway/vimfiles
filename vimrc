@@ -7,6 +7,8 @@ au FileType python setlocal tabstop=4 expandtab shiftwidth=4 softtabstop=4
 au FileType ruby setlocal tabstop=2 expandtab shiftwidth=2 softtabstop=2
 au FileType cucumber setlocal tabstop=2 expandtab shiftwidth=2 softtabstop=2
 
+autocmd FileType lisp,scheme setlocal equalprg=lispindent.lisp
+
 let mapleader = ","
 
 nnoremap <leader>d :NERDTreeToggle<cr>

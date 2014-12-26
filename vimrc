@@ -30,6 +30,17 @@ let g:solarized_visibility="high"
 
 let g:slime_target = "tmux"
 
+let g:niji_dark_colours = [
+    \ [ '81', '#5fd7ff'],
+    \ [ '99', '#875fff'],
+    \ [ '1',  '#dc322f'],
+    \ [ '76', '#5fd700'],
+    \ [ '3',  '#b58900'],
+    \ [ '2',  '#859900'],
+    \ [ '6',  '#2aa198'],
+    \ [ '4',  '#268bd2'],
+    \ ]
+
 
 set ruler
 set printoptions=duplex:off,paper:letter,syntax:off

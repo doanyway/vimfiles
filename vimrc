@@ -11,9 +11,10 @@ autocmd FileType lisp,scheme setlocal equalprg=lispindent.lisp
 
 let mapleader = ","
 
-nnoremap <leader>d :NERDTreeToggle<cr>
-nnoremap <leader>c :NERDComToggleComment<cr>
+nnoremap <leader>j :NERDTreeToggle<cr>
+nnoremap <leader>z :NERDComToggleComment<cr>
 
+let g:slimv_swank_cmd = '!osascript -e "tell application \"Terminal\" to do script \"sbcl --load ~/.vim/bundle/slimv/slime/start-swank.lisp\""'
 
 nnoremap <C-J> <C-W><C-J>
 nnoremap <C-K> <C-W><C-K>
@@ -29,6 +30,7 @@ let g:solarized_termtrans=1
 let g:solarized_termcolors=256
 let g:solarized_contrast="high"
 let g:solarized_visibility="high"
+
 
 let g:slime_target = "tmux"
 

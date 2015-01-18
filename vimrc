@@ -31,8 +31,7 @@ autocmd FileType lisp,scheme setlocal equalprg=lispindent.lisp
 
 let mapleader = ","
 
-"nnoremap <leader>j :NERDTreeToggle<cr>
-"nnoremap <leader>z :NERDComToggleComment<cr>
+nnoremap <leader>j :NERDTreeToggle<cr>
 
 "let g:slimv_swank_cmd = '!osascript -e "tell application \"Terminal\" to do script \"sbcl --load ~/.vim/bundle/slimv/slime/start-swank.lisp\""'
 
@@ -44,7 +43,7 @@ nnoremap <C-H> <C-W><C-H>
 
 set t_Co=256
 set background=dark
-"colorscheme solarized
+colorscheme solarized
 
 let g:solarized_termtrans=1
 let g:solarized_termcolors=256
